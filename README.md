@@ -11,8 +11,8 @@ With the stored request, you can do additional things:
   `<out.proto.msg PLUGIN | protoc-gen-capture -wrap=false > response.proto.msg`
 * inspect the request:
   `<out.proto.msg protoc-gen-capture -wrap=false -json-out > request.proto.json`
-* inspect the response:
-  `<out.proto.msg protoc-gen-capture -wrap=false -req-in=false -json-out > response.proto.json`
+* inspect the response (requires piping into plugin above):
+  `<response.proto.msg protoc-gen-capture -wrap=false -req-in=false -json-out > response.proto.json`
 * ... and of course, store various versions of the above and use them for plugin regression testing.
 
 Here's the output of `protoc-gen-capture --help`:
