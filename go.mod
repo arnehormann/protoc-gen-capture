@@ -1,4 +1,4 @@
-module arne.local/protoc-gen-json
+module arne.local/protoc-gen-capture
 
 go 1.18
 
