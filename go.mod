@@ -1,4 +1,4 @@
-module arne.local/protoc-gen-capture
+module github.com/arnehormann/protoc-gen-capture
 
 go 1.18
 
